@@ -1,0 +1,27 @@
+name: simulation
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flame: ^1.15.0
+  sensors_plus: ^4.0.2
+  flutter_svg: ^2.0.10+1
+  flame_forge2d: ^0.16.0+5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+  shaders:
+    - shaders/stars.frag
